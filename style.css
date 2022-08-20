@@ -1,0 +1,55 @@
+body {
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+  margin-bottom: 70px;
+  margin-top: 150px;
+}
+body h1 span {
+  color: #fff000;
+}
+body .divs {
+  display: flex;
+  gap: 100px;
+}
+body .divs .hover {
+  background: rgba(0, 0, 0, 0.5);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: relative;
+  border: 5px solid #fff;
+  box-shadow: 0 0 20px 1px #fff;
+}
+body .divs .hover i {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 36%;
+  font-size: 70px;
+}
+body p {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: absolute;
+  bottom: 40px;
+}
+
+body .divs .hover:hover {
+  box-shadow: 0 0 15px #fff000;
+  border: 5px solid #fff000;
+  cursor: pointer;
+}
+
+body .divs .hover:hover i {
+  color: #fff000;
+}/*# sourceMappingURL=style.css.map */
