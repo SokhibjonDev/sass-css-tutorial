@@ -3,6 +3,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+
     h1 {
         font-size: 70px;
         text-transform: uppercase;
@@ -10,13 +11,18 @@ body {
         color: #fff;
         margin-bottom: 70px;
         margin-top: 150px;
-        span{
+
+        span {
             color: #fff000;
         }
     }
+
+
+
     .divs {
         display: flex;
         gap: 100px;
+
         .hover {
             background: rgba(0, 0, 0, 0.5);
             width: 300px;
@@ -25,6 +31,7 @@ body {
             position: relative;
             border: 5px solid #fff;
             box-shadow: 0 0 20px 1px #fff;
+
             i {
                 color: #fff;
                 display: flex;
@@ -35,7 +42,87 @@ body {
             }
         }
     }
-    p{
+
+    .loading {
+        display: flex;
+        color: #fff000;
+        font-size: 82px;
+        margin-top: 100px;
+        letter-spacing: 5px;
+
+        span:nth-child(1) {
+            animation: animate1 6s infinite ease;
+        }
+        span:nth-child(2) {
+            animation: animate2 5s infinite ease;
+        }
+        span:nth-child(3) {
+            animation: animate3 4.5s infinite ease;
+        }
+        span:nth-child(4) {
+            animation: animate4 3s infinite ease-in-out;
+        }
+        span:nth-child(5) {
+            animation: animate5 2s infinite ease-in;
+        }
+        @keyframes animate1 {
+            0% {
+                opacity: 1;
+            }
+            50%{
+                opacity: 0.2;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        @keyframes animate2 {
+            0% {
+                opacity: 1;
+            }
+            50%{
+                opacity: 0.2;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        @keyframes animate3 {
+            0% {
+                opacity: 1;
+            }
+            50%{
+                opacity: 0.2;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        @keyframes animate4 {
+            0% {
+                opacity: 1;
+            }
+            50%{
+                opacity: 0.2;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        @keyframes animate5 {
+            0% {
+                opacity: 1;
+            }
+            50%{
+                opacity: 0.2;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+
+    p {
         color: #fff;
         text-transform: uppercase;
         letter-spacing: 3px;
